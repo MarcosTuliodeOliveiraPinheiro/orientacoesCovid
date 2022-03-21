@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientações contra o COVID-19</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 2px;
+        }
+        .container {
+            background:rgb(0, 200, 83) ;
+            color: black;
+            height: 50vh;
+            padding: 5px;
+            
+        }
+        .botao01{
+            padding: 5px;
+            width: 50%;
+            border-radius: 20px;
+            background-color: rgb(250, 250, 250);
+            color: rgb(250, 250, 250);
+            font-size: large;
+            border-style: hidden ;
+            border-width: thick;
+            border-style: solid;
+            border-color: black;
+            font-size: 25px;
+
+        }   
+        h3 {
+            font-size: 35px;
+            transform: translate(3vh);
+            padding: 15px;
+        }   
+        .form{
+            transform: translate(50vh);
+            }  
+        #result{
+            background: rgb(0, 200, 83);
+            width: 700px;
+            font-size: 25px;
+            color: rgb(250, 250, 250);
+            border-width: thick;
+            border-style: solid;
+            border-color:black;
+            border-radius: 10px;
+            transform: translate(40vh);
+            text-align: center;
+            display: none;
+            font-size: 25px;
+        } 
+        .botao01:hover {
+            transform: scale(1.15);
+            background: rgb(0, 200, 83);
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h3> Orientação contra o COVID-19 </h3>
+            <div><button class="botao01" id="botao" onclick="btn1()"> Você é idoso? </button></div>
+            <div><button class="botao01" id="botao" onclick="btn2()"> Sofre de problemas respiratórios? </button></div>
+            <div><button class="botao01" id="botao" onclick="btn3()"> É diabético? </button></div>
+            <div> <button class="botao01" id="botao" onclick="btn4()"> É saúdavel? </button>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div id="result" class="resultado"></div>
+    <script>
+        function btn1() {
+        let frase1 = 1;
+        let fraseFinal;
+        switch(frase1){
+            case 1 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, peça para fazerem compras por você!";
+            }
+            break;
+            case 2 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, tome Sol e faça exercícios leves!";
+            }
+            break;
+            case 3 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa e cuide da sua saúde!";
+            }
+            break;
+            case 4 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Faça compras pelos mais idosos e use máscara!";
+            }
+            break;
+            default : console.log("triste não? :(");
+
+        }
+    }
+
+    function btn2() {
+        let frase2 = 2;
+        let fraseFinal;
+        switch(frase2){
+            case 1 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, peça para fazerem compras por você!";
+            }
+            break;
+            case 2 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, tome Sol e faça exercícios leves!";
+            }
+            break;
+            case 3 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa e cuide da sua saúde!";
+            }
+            break;
+            case 4 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Faça compras pelos mais idosos e use máscara!";
+            }
+            break;
+            default : console.log("triste não? :(");
+
+        }
+    }
+
+    function btn3() {
+        let frase3 = 3;
+        let fraseFinal;
+        switch(frase3){
+            case 1 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, peça para fazerem compras por você!";
+            }
+            break;
+            case 2 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, tome Sol e faça exercícios leves!";
+            }
+            break;
+            case 3 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa e cuide da sua saúde!";
+            }
+            break;
+            case 4 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Faça compras pelos mais idosos e use máscara!";
+            }
+            break;
+            default : console.log("triste não? :(");
+
+        }
+    }
+
+    function btn4() {
+        let frase4 = 4;
+        let fraseFinal;
+        switch(frase4){
+            case 1 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, peça para fazerem compras por você!";
+            }
+            break;
+            case 2 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa, tome Sol e faça exercícios leves!";
+            }
+            break;
+            case 3 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Fique em casa e cuide da sua saúde!";
+            }
+            break;
+            case 4 : {
+                let btn01 = document.getElementById("result");
+                document.querySelector(".resultado").style.display = "block";
+                document.getElementById("result").innerHTML = "Faça compras pelos mais idosos e use máscara!";
+            }
+            break;
+            default : console.log("triste não? :(");
+
+        }
+    }
+    </script>
+</body>
+</html>
